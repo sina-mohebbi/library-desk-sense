@@ -1,0 +1,13 @@
+# --- LibraryDeskSense default sdkconfig ---
+# Flash & app
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+CONFIG_PARTITION_TABLE_SINGLE_APP_LARGE=y
+# FreeRTOS tick at 1000 Hz so vTaskDelay() has ms resolution
+CONFIG_FREERTOS_HZ=1000
+# Allow runtime stats (optional, used in report)
+CONFIG_FREERTOS_USE_TRACE_FACILITY=y
+CONFIG_FREERTOS_GENERATE_RUN_TIME_STATS=y
+# mbedTLS / networking defaults are fine
+# Required by espressif/coap libcoap mbedTLS backend
+CONFIG_MBEDTLS_SSL_PROTO_DTLS=y
+CONFIG_MBEDTLS_SSL_COOKIE_C=y

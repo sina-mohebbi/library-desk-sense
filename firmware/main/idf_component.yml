@@ -1,0 +1,6 @@
+## Managed components pulled by the IDF Component Manager.
+dependencies:
+  idf: ">=5.1"
+  espressif/coap: "^4.3.5"
+  espressif/mqtt: "*"
+  espressif/cjson: "*"

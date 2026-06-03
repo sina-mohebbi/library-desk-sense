@@ -1,0 +1,24 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "wifi.c"
+        "veml7700.c"
+        "hcsr04.c"
+        "sensors.c"
+        "telemetry.c"
+        "mqtt_ctrl.c"
+    INCLUDE_DIRS "."
+    REQUIRES
+        esp_wifi
+        esp_event
+        esp_netif
+        nvs_flash
+        esp_http_client
+        esp_adc
+        esp_driver_gpio
+        esp_driver_i2c
+        driver
+        mqtt
+        cjson
+        coap
+)
