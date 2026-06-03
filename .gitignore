@@ -1,0 +1,25 @@
+# ESP-IDF build files
+build/
+managed_components/
+sdkconfig
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Runtime/generated data
+*.log
+incoming.jsonl
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
