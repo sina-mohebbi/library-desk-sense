@@ -1,0 +1,55 @@
+{
+  "window_hours": 24,
+  "samples": 6154,
+  "utilisation_percent": 66.2,
+  "completed_sessions": 5,
+  "avg_session_s": 704.2,
+  "mean_noise": 37.71,
+  "mean_lux": 190.73,
+  "min_samples_per_hour": 20,
+  "busiest_hour": 21,
+  "quietest_hour": 18,
+  "event_counts": {
+    "high_noise_event": 20,
+    "desk_occupied": 8,
+    "poor_lighting_event": 5,
+    "desk_released": 5
+  },
+  "hourly_trend": [
+    {
+      "hour": 17,
+      "occupancy_percent": 100.0,
+      "mean_noise": 26.4,
+      "mean_lux": 198.9,
+      "samples": 78
+    },
+    {
+      "hour": 18,
+      "occupancy_percent": 63.3,
+      "mean_noise": 23.5,
+      "mean_lux": 180.5,
+      "samples": 1570
+    },
+    {
+      "hour": 19,
+      "occupancy_percent": 61.1,
+      "mean_noise": 46.1,
+      "mean_lux": 176.0,
+      "samples": 1578
+    },
+    {
+      "hour": 20,
+      "occupancy_percent": 43.4,
+      "mean_noise": 42.4,
+      "mean_lux": 179.6,
+      "samples": 1573
+    },
+    {
+      "hour": 21,
+      "occupancy_percent": 100.0,
+      "mean_noise": 39.6,
+      "mean_lux": 232.2,
+      "samples": 1355
+    }
+  ]
+}
