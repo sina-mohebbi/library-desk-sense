@@ -1,0 +1,54 @@
+{
+  "scoring": "0.5*availability + 0.3*quietness(noise_p90) + 0.2*lighting(up to 200 lux)",
+  "history_hours": 24,
+  "slot_minutes": 15,
+  "min_samples_per_slot": 20,
+  "min_free_fraction": 0.1,
+  "recommendations": [
+    {
+      "slot": 74,
+      "window": "18:30-18:45",
+      "score": 0.909,
+      "free_percent": 100.0,
+      "noise_p90": 30.0,
+      "median_lux": 176.8,
+      "samples": 389
+    },
+    {
+      "slot": 81,
+      "window": "20:15-20:30",
+      "score": 0.696,
+      "free_percent": 97.7,
+      "noise_p90": 52.0,
+      "median_lux": 187.8,
+      "samples": 396
+    },
+    {
+      "slot": 80,
+      "window": "20:00-20:15",
+      "score": 0.672,
+      "free_percent": 100.0,
+      "noise_p90": 54.0,
+      "median_lux": 171.5,
+      "samples": 402
+    },
+    {
+      "slot": 75,
+      "window": "18:45-19:00",
+      "score": 0.636,
+      "free_percent": 30.3,
+      "noise_p90": 23.0,
+      "median_lux": 184.2,
+      "samples": 383
+    },
+    {
+      "slot": 79,
+      "window": "19:45-20:00",
+      "score": 0.584,
+      "free_percent": 84.3,
+      "noise_p90": 54.0,
+      "median_lux": 162.7,
+      "samples": 401
+    }
+  ]
+}
