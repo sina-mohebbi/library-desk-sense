@@ -1,0 +1,24 @@
+{
+  "noise": {
+    "model": "ARIMA(0, 1, 1)",
+    "mae": 2.0744,
+    "naive_mae": 2.6989,
+    "skill_mae": 0.2314,
+    "train_points": 188,
+    "test_points": 46,
+    "horizon_minutes": 15,
+    "forecast_value": 35.4615,
+    "last_time": "2026-07-03 21:50:00+00:00"
+  },
+  "lux": {
+    "model": "persistence",
+    "mae": 1.0825,
+    "naive_mae": 1.0825,
+    "skill_mae": 0.0,
+    "train_points": 188,
+    "test_points": 46,
+    "horizon_minutes": 15,
+    "forecast_value": 257.9158,
+    "last_time": "2026-07-03 21:50:00+00:00"
+  }
+}
