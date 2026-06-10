@@ -1,0 +1,30 @@
+{
+  "messages_per_protocol": 100,
+  "payload": {
+    "desk": "benchmark-01",
+    "ts": 0,
+    "occupied": true,
+    "session_s": 42,
+    "noise": 1234,
+    "lux": 321.0
+  },
+  "overhead_note": "Application-layer byte estimates; IP/TCP/UDP framing excluded.",
+  "http": {
+    "successful_requests": 100,
+    "mean_ms": 59.61330800084397,
+    "median_ms": 59.898550040088594,
+    "p95_ms": 72.16057982295752,
+    "header_bytes": 180,
+    "payload_bytes": 97,
+    "bytes_per_message": 277
+  },
+  "coap": {
+    "successful_requests": 100,
+    "mean_ms": 47.06773798214272,
+    "median_ms": 46.86670005321503,
+    "p95_ms": 49.438045104034245,
+    "header_bytes": 16,
+    "payload_bytes": 97,
+    "bytes_per_message": 113
+  }
+}
