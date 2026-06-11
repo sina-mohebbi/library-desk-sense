@@ -1,0 +1,9 @@
+flask==3.0.3
+paho-mqtt==2.1.0
+aiocoap==0.4.12
+influxdb-client==1.44.0
+python-dotenv==1.0.1
+requests==2.32.3
+numpy>=2.1.0,<3.0
+pandas>=2.2.3,<3.0
+statsmodels>=0.14.4,<1.0
