@@ -196,18 +196,6 @@ Available commands:
 - `/status`
 - `/stats`
 
-## What I Learned
-
-This project helped me practice:
-
-- Embedded programming with ESP-IDF and FreeRTOS
-- Sensor integration on ESP32
-- MQTT, HTTP, and CoAP communication in an IoT system
-- Docker-based local deployment
-- Time-series storage with InfluxDB
-- Dashboard creation with Grafana
-- Data analysis, forecasting, and recommendation logic
-- End-to-end debugging of an IoT pipeline
 
 ## Future Improvements
 
