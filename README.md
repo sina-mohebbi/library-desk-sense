@@ -43,10 +43,10 @@ sends data over HTTP/CoAP, and an event-publish task that emits MQTT events.
 - ESP32 firmware developed with ESP-IDF and FreeRTOS
 - HTTP and CoAP telemetry transmission
 - MQTT event publishing and runtime configuration
-- Automatic communication fallback mode
+- Automatic communication fallback mode 
 - Docker-based local backend with InfluxDB, Mosquitto, and Grafana
 - Trend analysis, forecasting, evaluation, and quietness recommendations
-- Optional Telegram bot for status, stats, and alerts
+- Telegram bot for status, stats, and alerts
 
 ## Repository Layout
 
