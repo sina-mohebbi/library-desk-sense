@@ -27,6 +27,14 @@ telemetry (HTTP/CoAP) and event (MQTT) tasks. A Python proxy ingests telemetry,
 writes it to InfluxDB, and feeds Grafana dashboards, analytics, and a Telegram
 bot. Runtime configuration is pushed back to the device over MQTT.
 
+### Firmware task pipeline
+
+![FreeRTOS task pipeline](docs/images/firmware-tasks.png)
+
+Inside the firmware, one sensing task reads all three sensors and passes each
+reading through FreeRTOS queues to two independent tasks: a telemetry task that
+sends data over HTTP/CoAP, and an event-publish task that emits MQTT events.
+
 ## Main Features
 
 - Desk occupancy detection using an HC-SR04 ultrasonic sensor
@@ -53,6 +61,8 @@ bot. Runtime configuration is pushed back to the device over MQTT.
 | `docs/` | Project report |
 
 ## Hardware Setup
+
+![ESP32 sensor wiring](docs/images/hardware-wiring.png)
 
 | Sensor | ESP32 connection |
 |---|---|
