@@ -6,9 +6,7 @@ The ESP32 collects distance, light, and sound-intensity readings, then sends the
 
 This project was made to explore how a real IoT pipeline works when hardware, networking, backend services, dashboards, and analytics all need to cooperate. It combines ESP-IDF firmware, HTTP/CoAP telemetry, MQTT runtime configuration, Docker services, time-series storage, forecasting, and a Telegram bot into one working system.
 
-**Short description:** Smart ESP32-based library desk monitor for occupancy, light, quietness, analytics, dashboards, and Telegram alerts.
-
-**Topics:** `esp32`, `iot`, `esp-idf`, `freertos`, `mqtt`, `coap`, `http`, `influxdb`, `grafana`, `docker`, `telegram-bot`, `sensors`, `time-series`, `library`
+**Tech stack:** C (ESP-IDF, FreeRTOS) firmware on the ESP32 · Python backend (HTTP/CoAP, MQTT, InfluxDB, analytics, Telegram bot) · Docker · Grafana.
 
 ```text
 ESP32 + sensors
