@@ -48,7 +48,7 @@ sends data over HTTP/CoAP, and an event-publish task that emits MQTT events.
 - ESP32 firmware developed with ESP-IDF and FreeRTOS
 - HTTP and CoAP telemetry transmission
 - MQTT event publishing and runtime configuration
-- Automatic communication fallback mode 
+- Adaptive HTTP/CoAP transport — picks the lower-latency protocol per sample and automatically fails over to the other if a send fails
 - Docker-based local backend with InfluxDB, Mosquitto, and Grafana
 - Trend analysis, forecasting, evaluation, and quietness recommendations
 - Telegram bot for status, stats, and alerts
